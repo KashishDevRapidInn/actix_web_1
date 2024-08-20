@@ -1,0 +1,6 @@
+get, post: These are procedural macros for defining route handlers.
+web: Contains utilities for web handling, including functions for routing and extracting data from requests.
+App: The main application struct where you configure your routes.
+HttpResponse: A type used to create HTTP responses.
+HttpServer: The server that listens for incoming requests.
+Responder: A trait for types that can be turned into HTTP responses.
